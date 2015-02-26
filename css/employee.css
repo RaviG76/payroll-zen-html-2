@@ -1,0 +1,483 @@
+.table {
+    margin-bottom: 10px;
+}
+.table thead tr th {
+    border-bottom: 3px solid #cadcce;
+    color: #32823f;
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+}
+.table th, .table td {
+    line-height: 19px;
+}
+.table-bordered {
+    border-radius: 0;
+}
+.table-bordered thead:first-child tr:first-child th:first-child, .table-bordered tbody:first-child tr:first-child td:first-child {
+    border-top-left-radius: 0;
+}
+.table-bordered thead:first-child tr:first-child th:last-child, .table-bordered tbody:first-child tr:first-child td:last-child {
+    border-top-right-radius: 0;
+}
+.table-bordered thead:last-child tr:last-child th:first-child, .table-bordered tbody:last-child tr:last-child td:first-child {
+    border-bottom-left-radius: 0;
+}
+.table-bordered thead:last-child tr:last-child th:last-child, .table-bordered tbody:last-child tr:last-child td:last-child {
+    border-bottom-right-radius: 0;
+}
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #d7f6d3;
+}
+.table tbody tr:hover td .showonhover, .table tbody tr:hover th .showonhover {
+    display: inline-block;
+    float: left;
+}
+.table tbody tr.no-hover:hover td, .table tbody tr.no-hover:hover th {
+    background-color: transparent !important;
+}
+.table tbody + tbody {
+    border-top: 0 none;
+}
+.table-links {
+    margin-top: 20px;
+    table-layout: fixed;
+}
+.table-links .showonhover {
+    display: none;
+}
+table [class*="span"], .row-fluid table [class*="span"] {
+    display: block;
+}
+.table-details td {
+    border-top: medium none;
+    padding: 4px 8px;
+}
+.table-details td.name {
+    color: #a4a4a4;
+    font-weight: 200;
+    padding-left: 2px;
+    text-align: right;
+    width: 35%;
+}
+.table-details td.value {
+    color: #4a4a4a;
+    text-align: left;
+}
+.table-details tbody tr:hover td, .table-details tbody tr:hover th {
+    background-color: transparent;
+}
+.table-stacked {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*======nav css start here=====*/
+
+.zp-icon-flag-sm:before {
+    content: "";
+}
+
+nav ul.nav-list li a span {
+    color: #827a73;
+    display: inline-block;
+    font-size: 1.4em;
+    margin-left: 8px;
+}
+
+.zp-icon {
+    font-family: "zp-icons";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: optimizelegibility;
+    text-transform: none;
+}
+
+#addresses-container address {
+    display: block;
+    font-style: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+#addresses-container .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 4px 8px;
+    vertical-align: top;
+}
+
+
+.main-hat .table{
+    margin-bottom:0px;
+}
+
+.main-hat {
+    margin-top: 30px;
+}
+
+.main-hat address{
+	margin-bottom: 10px;
+}
+
+.bank-account-information-view {
+    margin-top: 30px;
+}
+
+.future-federal-filing-requirement-view.margin-bottom-none {
+    margin-top: 30px !important;
+}
+
+.state-filing-requirements-view {
+    margin-top: 30px;
+}
+
+.state-filing-requirements-views {
+    margin-top: 30px;
+}
+
+.company-signatory-view {
+    margin-top: 30px;
+}
+
+.company-default-pto-policy-view{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.well h3 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #9a9a9a;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 24px;
+    text-transform: lowercase;
+}
+
+label.name {
+    color: #9a9a9a;
+    font-weight: 200;
+    margin: 10px auto 0;
+}
+
+.form-horizontal .control-label {
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 160px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea, select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .faux-input {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+textarea.indent, select.indent, input.indent[type="text"], input.indent[type="password"], input.indent[type="datetime"], input.indent[type="datetime-local"], input.indent[type="date"], input.indent[type="month"], input.indent[type="time"], input.indent[type="week"], input.indent[type="number"], input.indent[type="email"], input.indent[type="url"], input.indent[type="search"], input.indent[type="tel"], input.indent[type="color"], .uneditable-input.indent, .faux-input.indent {
+    margin-left: 6% !important;
+}
+
+textarea:focus, select:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus, .faux-input:focus {
+    border-color: rgba(82, 179, 82, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 179, 82, 0.6);
+    outline: 0 none;
+}
+
+select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .faux-input {
+    color: #555555;
+    display: inline-block;
+    font-size: 1.2em;
+    height: 25px;
+    line-height: 22px;
+    margin-bottom: 9px;
+    padding: 3px 4px;
+}
+
+input.btn[type="reset"] {
+    margin-bottom: 10px;
+}
+
+input:-moz-placeholder {
+    color: #999;
+}
+
+input:disabled {
+    background-color: #efefef;
+}
+
+span.label.label-success.isNew {
+    margin-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.disabled {
+    color: #999 !important;
+    cursor: not-allowed;
+}
+
+.input-prepend, .input-append {
+    font-size: 14px;
+}
+
+.input-prepend .add-on.percentage, .input-append .add-on.percentage {
+    margin-left: -6px;
+    padding: 4px 8px;
+}
+
+.input-prepend .add-on.currency, .input-append .add-on.currency {
+    margin-right: -5px;
+    padding: 4px 8px;
+}
+
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child, .input-prepend .add-on:last-child, .input-prepend .btn:last-child, .input-append .add-on:first-child, .input-append .btn:first-child, .input-append .add-on:last-child, .input-append .btn:last-child {
+    border-radius: 0 !important;
+    min-width: 14px;
+}
+
+.input-prepend.input-fullwidth {
+    position: relative;
+}
+
+.input-prepend.input-fullwidth .add-on {
+    text-align: center;
+}
+
+.input-prepend.input-fullwidth .input-wrapper {
+    bottom: 0;
+    display: block;
+    left: 31px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.input-prepend.input-fullwidth .input-wrapper input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input-append.input-fullwidth {
+    margin-bottom: 9px;
+    position: relative;
+}
+
+.input-append.input-fullwidth .add-on {
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.input-append.input-fullwidth .input-wrapper {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 31px;
+    top: 0;
+}
+
+.input-append.input-fullwidth .input-wrapper input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-horizontal .control-group {
+    margin-bottom: 0px;
+}
+
+.form-horizontal .control-group .controls p {
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+fieldset.company-suspend .control-group {
+    margin-bottom: 30px !important;
+}
+label {
+    font-weight: 300;
+}
+input, button, select, textarea {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+address {
+    margin-bottom: 0;
+}
+article {
+    margin-bottom: 30px;
+}
+.optional-field:-moz-placeholder {
+    color: #c4c4c4;
+    font-weight: 200;
+}
+.form-actions {
+    background: none repeat scroll 0 0 transparent;
+}
+form.form-horizontal {
+    margin-top: 20px;
+}
+form.form-horizontal p {
+    margin-bottom: 30px;
+}
+form.form-horizontal select {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+form.form-horizontal .exempt {
+    display: inline;
+    margin-right: 10px;
+}
+form.form-horizontal .hasFederalTaxes {
+    display: inline-block;
+}
+form.form-horizontal .exempt-tax-row .radio.span6 {
+    display: inline-block;
+}
+
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+    float: none;
+    margin: 3px 4px 0 -17px;
+}
+
+
+.control-group .controls label.radio:first-child {
+    margin-top: 8px;
+    padding-top: 0;
+}
+.row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+}
+.row-fluid label.radio {
+    display: block;
+    float: none;
+    min-height: 20px;
+}
+
+.radio.span6.instead {
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.allow_employee_login .radio, .checkbox {
+    padding-left: 19px;
+}
+
+#employee-job-compensation-form .input-prepend .add-on.currency, .input-append .add-on.currency {
+    height: 30px !important;
+    margin-right: -5px;
+    padding: 4px 11px;
+}
+
+#paid-time-off-field .radio.span6.sick-days {
+    margin-left: -1px;
+}
+
+#paid-time-off-field .radio.span6.participating{
+	 margin-top: -2px;
+	 margin-left: -1px;
+}
+
+.employee-form.self-onboard {
+    margin-top: 5px;
+}
+
+.radio.span6.request-email {
+    margin-left: -1px;
+}
+
+.radio.span6.myself {
+    margin-left: -1px;
+    margin-top: -2px;
+}
+
+.form-actions.ajax-spinner {
+    margin-top: 25px;
+}
+
+.cancel-new-employee.btn{
+	 padding: 9px 14px 9px 14px;
+}
+
+
+.zp-icon {
+    left: 1px;
+    position: relative;
+    top: -1px;
+}
+
+.cmp-ico {
+    margin-top: -1px;
+}
+
+/*#active-employees-table .employee-row-view #addresses-container .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    vertical-align: top;
+}*/
+
+#padd-hacker.employee-row-view td{
+	padding: 8px;
+}
+
+#padd-hacker.pending-employee-row-view td{
+	padding: 8px;
+}
+
+.row.padding-top.padding-bottom.top-secret {
+    margin-left: 6px;
+}
+
+.offset1.span2.studs{
+    width: 16.07%;
+}
+
+.span9.stud-content{
+    width: 76.359%;
+}
+
+#clear-shout .span10.offset1.text-center.share-header{
+margin-left: 41px;
+}
+
+#social-shout .span10.offset1.share-buttons {
+    margin-left: 32px;
+}
+
+#social-shout .row-fluid .span10 {
+    width: 82.906%;
+}
+
+#clear-shout .span10.offset1.text-center.share-header{
+	width: 77.906%;
+}
+
+#input-shout .span10.offset1.share-link{
+margin-left: 32px;	
+}
+
+.icon-share {
+    margin-left: -2px;
+ }
+
+.form-actions.ajax-spinner.no-padd {
+    margin-top: 20px;
+}
+
+.form-horizontal .control-group .controls.access-home p {
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+
+

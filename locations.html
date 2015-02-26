@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/fevicon-icon.png">
+    <title>Zenpayroll</title>
+    
+    <!--===custom css start here==-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">   
+	  <link rel="stylesheet" href="css/manage.css"> 
+    <link rel="stylesheet" href="css/employee.css">
+
+
+ </head>
+
+ <body>
+
+ <div id="app">
+ <div>
+
+ <div id="top-bar-wrapper"><!--======top bar section start here======-->
+ <div class="top-bar-view">
+
+ <div class="top-bar-content" style="top: 0px;">
+ <div class="app-alert-view">
+ <div class="app-alert-div alert" style="display: none;">
+  <span class="message"></span><br>
+  <a class="reload-page has-icon" href="javascript:void(0)"><i class="icon-refresh"></i> Please reload now to continue</a>
+</div>
+</div>
+
+<div class="onboarding-friend-view">
+<ul id="onboarding-friend">
+<li>
+  <div class="message row-fluid">
+    <div class="span12 onboarding-state" id="onboarding-message">
+      <a class="" href="javascript:void(0);">
+
+      <div data-original-title="To correctly calculate your state payroll taxes, we need some information from you." data-placement="bottom-left" data-toggle="tooltip" class="item-message">
+        <span class="step-number">Step 4 of 8</span>
+        
+        <h6 class="tip">State Tax Setup (Georgia)</h6>
+        
+          <div class="item-details">
+            To correctly calculate your state payroll taxes, we need some information from you.
+          </div>
+      </div>
+      </a>
+    </div>
+  </div>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="top-bar-buffer" style="top: 0px; height: 66px;"></div>
+</div>
+</div><!--======top bar section close here======-->
+
+
+<div class="container container-fluid">
+  <div class="row-fluid" id="top">
+    <div id="account-above-logo" class="span2 hidden-phone">&nbsp;</div>
+    <div id="account-content" class="span10">
+    <div class="account-view-container">
+    <div class="row-fluid">
+  <div class="span6 text-left">
+    <div class="heart-container">
+        <span class="referrals-heart-link">We <i class="icon-heart"></i> VTEAM</span>
+
+
+
+
+<!--=====popover start here=====-->
+
+<span class="referrals-popover-view" id="referal" style="display:none;">
+<div class="arrow" style="margin-left: -181px;"><img src="img/arrow.png"></div>
+<div class="main-popover">
+
+<div class="popover-inner">
+
+<h3 class="popover-til">
+<div class="row padding-top padding-bottom top-secret">
+  <div class="offset1 span2 studs">
+    <img alt="Paula" src="img/paula-head.jpg" class="white-border img-circle">
+  </div>
+  <div class="span9 stud-content">
+    <div class="margin-left">
+      <p>
+        We hope you love us too, Jerome! Spread the love and help us grow ZenPayroll by referring a friend. :)
+      </p>
+      <p class="from-text">
+        - <strong>Paula</strong>, ZenPayroll Support Team
+      </p>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="popover-content">
+
+<div class="content-full" style="">
+  <div class="how-it-works">
+    <div class="row-fluid text-center">
+      <div class="span12 promo-message-header">
+        <h4>Get $100, give $100 <span>for every friend you refer</span></h4>
+      </div>
+    </div>
+
+</div>
+ 
+<div class="share-wrapper" id="clear-shout">
+<div class="referrals-share-view">
+<div class="row-fluid">
+  <div class="span10 offset1 text-center share-header">
+    <span class="share-divider"></span>
+    <h5>Share your referral link:</h5>
+  </div>
+</div>
+
+<div class="row-fluid" id="social-shout">
+  <div class="span10 offset1 share-buttons">
+    <a class="btn share-twitter ha-referrals-share-twitter">
+      <img alt="Twitter" src="img/share-twitter-xl.png" class="icon-share">
+      Tweet It
+    </a>
+    <a class="btn share-facebook ha-referrals-share-facebook">
+      <img alt="Facebook" src="img/share-fb.png" class="icon-share">
+      Post It
+    </a>
+    <a class="btn share-linkedin ha-referrals-share-linkedin">
+      <img alt="LinkedIn" src="img/share-linkedin.png" class="icon-share">
+      Share It
+    </a>
+  </div>
+</div>
+
+<div class="row-fluid" id="input-shout">
+  <div class="span10 offset1 share-link">
+    <span class="kot-divider"></span>
+    <input type="text" value="" readonly="readonly" class="referral-url" placeholder="https://zenpayroll.com/r/8kZ6B">
+    <a href="javascript:void(0);" target="_blank" class="btn share-email ha-referrals-share-email"><i class="fa fa-envelope-o"></i>Email</a>
+  </div>  
+</div>
+
+</div>
+</div>
+
+
+
+
+
+</div>
+</div></div>
+<div class="status-wrapper"></div>
+<div class="popover-footer">
+    <p>
+      Limited-time offer. Your friend must run payroll by 04/30/2015. You will both receive a $100 Amazon gift card once we
+      bill your friend for the first time. Does not apply to multi-user accounts.
+    </p>
+</div>
+
+</div>
+</span>
+
+<!--====pop over close here====-->
+
+
+    </div>  
+  </div>
+
+  <div class="span6 account-toggle">
+    <a class="off" id="account-menu-toggle" href="javascript:void(0)">jchout@hotmail.com</a>
+
+    <div id="account-menu" style="display: none;">
+      <div id="account-menu-paper">
+        <div id="account-menu-paperclip">
+          <ul>
+            <li><a class="personal-details" href="javascript:void(0);">Personal Details</a></li>
+            <li><a class="sign-out" rel="nofollow" data-bypass="" data-method="delete" href="javascript:void(0);">Sign Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div>
+  </div>
+
+<div class="row-fluid"><!--main content div start here-->
+
+<!--nav section start here-->
+
+<nav id="nav-content" class="span2">
+<div class="nav-view-container">
+
+<a id="logo" class="" href="javascript:void(0);">
+  <img alt="ZenPayroll" src="img/zenpayroll-logo.png">
+</a>
+
+<ul class="nav nav-list">
+
+<li class="divider-below" id="home-nav-item">
+      <a class="get_started" href="main-manage.html">
+       get started <span class="zp-icon"><img src="img/flag-grey.png"></span>
+      </a>
+</li>
+  
+<li id="run-payroll-nav-item">
+    <a class="run_payroll" href="javascript:void(0);">
+      run payroll <span class="zp-icon"><img src="img/run-payroll.png"></span>
+    </a>
+</li>
+
+<li class="divider-below  hide " id="pay-contractors-nav-item">
+    <a class="pay_contractors" href="javascript:void(0);">
+      pay contractors <span class="zp-icon"><img src="img/contractor-icon.png"></span>
+    </a>
+</li>
+
+<li id="manage-employees-nav-item">
+    <a class="manage_employees" href="employees.html">
+      employees <span class="zp-icon"><img src="img/employee-payroll.png"></span>
+    </a>
+</li>
+
+<li id="manage-contractors-nav-item">
+    <a class="manage_contractors" href="javascript:void(0);">
+      contractors <span class="zp-icon"><img src="img/contractor-icon.png"></span>
+    </a>
+</li>
+
+<li class="divider-below" id="payroll-history-nav-item">
+    <a class="payroll_history" href="javascript:void(0);">
+      payroll history <span class="zp-icon"><img src="img/payroll-history.png"></span>
+    </a>
+</li>
+
+<li id="company-details-nav-item">
+    <a class="company_details" href="details.html">
+      company <span class="zp-icon"><img src="img/company-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-locations-nav-item" class="current">
+    <a class="company_locations" href="locations.html">
+      locations <span class="zp-icon"><img src="img/location-icon-green.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-benefits-nav-item">
+    <a class="company_benefits" href="javascript:void(0);">
+      benefits <span class="zp-icon"><img src="img/benefits-icon.png"></span>
+    </a>
+</li>
+
+<li id="forms-nav-item">
+    <a class="company_forms" href="javascript:void(0);">
+      forms <span class="zp-icon"><img src="img/form-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-settings-nav-item">
+    <a class="company_settings" href="javascript:void(0);">
+      settings <span class="zp-icon"><img src="img/setting-icon.png"></span>
+    </a>
+</li>
+
+</ul>
+</div>
+</nav>
+<!--nav section close here-->
+
+
+
+<!--content part start here-->
+<div class="paper span10" id="main" style="height: auto;">
+      <div id="page-container">
+        <div class="clear height-zero">&nbsp;</div>
+
+        <!--<h6 class='margin-top-none'>VTEAM</h6>-->
+        <div class="hide" id="loading" style="display: none;">
+        </div>
+
+        <div id="main-content" style="opacity: 1;">
+        <div class="address-show-view">
+        <h1 class="title">Company Locations</h1>
+
+
+  <div class="row-fluid clear">
+    <div class="span8 content">
+      <article id="company-locations">
+      <article class="address-company-addresses-view">
+      <article id="main-company-locations">
+  <h2>Main Company Locations</h2>
+  <div class="row-fluid clear">
+    <div id="addresses-container" class="span10"><table class="table table-details">
+  <tbody>
+    <tr>
+      <td class="name">Filing Address</td>
+      <td class="value">
+        
+          <address>
+            1 Microsoft Way<br>
+            Redmond, WA 98052
+          <br>
+          <abbr title="Phone">P:</abbr> <span>404-111-2343</span><br>
+          </address>
+        
+      </td>
+    </tr>
+    <tr>
+      <td class="name">Mailing Address</td>
+      <td class="value">
+        
+          <address>
+            1 Microsoft Way<br>
+            Redmond, WA 98052
+          <br>
+            <abbr title="Phone">P:</abbr> <span>404-111-2343</span><br>
+          </address>
+        
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+    <div class="span2 edit-link">
+      <a class="edit hidden-phone" href="javascript:void(0)">
+        <i class="icon-pencil"></i> edit
+      </a>
+      <a class="edit visible-phone btn blue-btn" href="javascript:void(0)">
+        <i class="icon-pencil"></i> edit
+      </a>
+    </div>
+  </div>
+</article>
+
+<div class="modal hide fade"></div>
+</article></article>
+
+      <article id="addresses">
+      <div class="address-addresses-view">
+      <article id="all-company-locations">
+  
+  <div class="main-hat">
+    <h2>All Company Locations On File</h2>
+
+    <div id="address-sections"><div class="address-address-view"><div class="row-fluid clear">
+  <div class="span10">
+    <table class="table table-details">
+      <tbody>
+        <tr>
+          <td class="name">Location #1</td>
+          <td class="value">
+            <address>
+              1 Microsoft Way<br>
+              Redmond, WA 98052
+            <br>
+              <abbr title="Phone">P:</abbr> <span>404-111-2343</span>
+            </address>
+            <div class="address-extension-view"><div data-reactid=".0"></div></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="span2 edit-link">
+    <a class="edit hidden-phone" href="javascript:void(0)">
+      <i class="icon-pencil"></i> edit
+    </a>
+    <a class="edit visible-phone btn blue-btn" href="javascript:void(0)">
+      <i class="icon-pencil"></i> edit
+    </a>
+  </div>
+</div>
+
+<div class="modal hide fade"></div>
+</div></div>
+
+</div>
+
+
+
+    <div class="row-fluid clear">
+      <div class="span10">
+        <table class="table table-details">
+          <tbody>
+            <tr class="no-hover">
+              <td class="name hidden-phone"></td>
+              <td class="value">
+                <a class="add add-link" href="javascript:void(0)">
+                  <i class="icon-plus-sign"></i> Add New Company Location
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="span2 edit-link hidden-phone"></div>
+    </div>
+  
+</article>
+
+<div class="modal hide fade"></div>
+</div></article>
+    </div>
+    <div class="span4 extra">
+      <div class="well">
+        <h4>Did you know?</h4>
+        <div class="row-fluid clear">
+          <div class="span12">
+            <p>
+              There are 27 million small businesses in the U.S., which generate income for 70 million employees and family members. Small businesses create 4,000 new jobs on an average day. This is 90 percent of new jobs in America. We are a true small business nation.
+            </p>
+            <em style="font-size: 12px">
+              Source: U.S. Department of Commerce/Small Business Administration
+            </em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div></div>
+
+        <div class="clear height-zero">&nbsp;</div>
+      </div>
+    </div>
+
+<!--content part close here-->
+
+  </div><!--main content div close here-->
+
+  <div class="row-fluid">
+    <div class="span2 hidden-phone"></div>
+    <div class="span10" id="footer">
+      <ul>
+        <li><img title="secure connection" alt="secure connection" src="img/secure-connection.png"></li>
+        <li><a class="" href="javascript:void(0);">support</a></li>
+        <li><a data-bypass="" target="_blank" class="" href="javascript:void(0);">about</a></li>
+        <li><a class="" href="javascript:void(0);">privacy</a></li>
+        <li><a class="" href="javascript:void(0);">terms</a></li>
+        <li><a data-bypass="" target="_blank" class="" href="javascript:void(0);">jobs</a></li>
+        <li><a data-bypass="" href="javascript:void(0);" title="Follow ZenPayroll on Facebook" target="_blank" class="social"><img src="img/facebook.png"></a></li>
+        <li><a data-bypass="" href="javascript:void(0);" title="Follow ZenPayroll on Twitter" target="_blank" class="social"><img src="img/twitter.png"></a></li>
+        <li id="copyright-app">&copy; ZenPayroll, Inc. Built in California.</li>
+      </ul>
+    </div>
+  </div>
+
+ 
+
+
+
+<script src="js/jquery-1.9.1.min.js"></script> 
+ <script src="js/bootstrap.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#account-menu-toggle').click(function() {
+                $('#account-menu').toggle();
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $('.referrals-heart-link').click(function() {
+                $('.referrals-popover-view').slideToggle("fast");
+        });
+    });
+</script>
+
+
+
+ </body>
+ </html>

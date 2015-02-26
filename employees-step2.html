@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/fevicon-icon.png">
+    <title>Zenpayroll</title>
+    
+    <!--===custom css start here==-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">   
+	  <link rel="stylesheet" href="css/manage.css"> 
+    <link rel="stylesheet" href="css/employee.css">
+
+
+ </head>
+
+ <body>
+
+ <div id="app">
+ <div>
+
+ <div id="top-bar-wrapper"><!--======top bar section start here======-->
+ <div class="top-bar-view">
+
+ <div class="top-bar-content" style="top: 0px;">
+ <div class="app-alert-view">
+ <div class="app-alert-div alert" style="display: none;">
+  <span class="message"></span><br>
+  <a class="reload-page has-icon" href="javascript:void(0)"><i class="icon-refresh"></i> Please reload now to continue</a>
+</div>
+</div>
+
+<div class="onboarding-friend-view">
+<ul id="onboarding-friend">
+<li>
+  <div class="message row-fluid">
+    <div class="span12 onboarding-state" id="onboarding-message">
+      <a class="" href="javascript:void(0);">
+
+      <div data-original-title="To correctly calculate your state payroll taxes, we need some information from you." data-placement="bottom-left" data-toggle="tooltip" class="item-message">
+        <span class="step-number">Step 4 of 8</span>
+        
+        <h6 class="tip">State Tax Setup (Georgia)</h6>
+        
+          <div class="item-details">
+            To correctly calculate your state payroll taxes, we need some information from you.
+          </div>
+      </div>
+      </a>
+    </div>
+  </div>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="top-bar-buffer" style="top: 0px; height: 66px;"></div>
+</div>
+</div><!--======top bar section close here======-->
+
+
+<div class="container container-fluid">
+  <div class="row-fluid" id="top">
+    <div id="account-above-logo" class="span2 hidden-phone">&nbsp;</div>
+    <div id="account-content" class="span10">
+    <div class="account-view-container">
+    <div class="row-fluid">
+  <div class="span6 text-left">
+    <div class="heart-container">
+        <span class="referrals-heart-link">We <i class="icon-heart"></i> VTEAM</span>
+
+
+
+
+<!--=====popover start here=====-->
+
+<span class="referrals-popover-view" id="referal" style="display:none;">
+<div class="arrow" style="margin-left: -181px;"><img src="img/arrow.png"></div>
+<div class="main-popover">
+
+<div class="popover-inner">
+
+<h3 class="popover-til">
+<div class="row padding-top padding-bottom top-secret">
+  <div class="offset1 span2 studs">
+    <img alt="Paula" src="img/paula-head.jpg" class="white-border img-circle">
+  </div>
+  <div class="span9 stud-content">
+    <div class="margin-left">
+      <p>
+        We hope you love us too, Jerome! Spread the love and help us grow ZenPayroll by referring a friend. :)
+      </p>
+      <p class="from-text">
+        - <strong>Paula</strong>, ZenPayroll Support Team
+      </p>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="popover-content">
+
+<div class="content-full" style="">
+  <div class="how-it-works">
+    <div class="row-fluid text-center">
+      <div class="span12 promo-message-header">
+        <h4>Get $100, give $100 <span>for every friend you refer</span></h4>
+      </div>
+    </div>
+
+</div>
+ 
+<div class="share-wrapper" id="clear-shout">
+<div class="referrals-share-view">
+<div class="row-fluid">
+  <div class="span10 offset1 text-center share-header">
+    <span class="share-divider"></span>
+    <h5>Share your referral link:</h5>
+  </div>
+</div>
+
+<div class="row-fluid" id="social-shout">
+  <div class="span10 offset1 share-buttons">
+    <a class="btn share-twitter ha-referrals-share-twitter">
+      <img alt="Twitter" src="img/share-twitter-xl.png" class="icon-share">
+      Tweet It
+    </a>
+    <a class="btn share-facebook ha-referrals-share-facebook">
+      <img alt="Facebook" src="img/share-fb.png" class="icon-share">
+      Post It
+    </a>
+    <a class="btn share-linkedin ha-referrals-share-linkedin">
+      <img alt="LinkedIn" src="img/share-linkedin.png" class="icon-share">
+      Share It
+    </a>
+  </div>
+</div>
+
+<div class="row-fluid" id="input-shout">
+  <div class="span10 offset1 share-link">
+    <span class="kot-divider"></span>
+    <input type="text" value="" readonly="readonly" class="referral-url" placeholder="https://zenpayroll.com/r/8kZ6B">
+    <a href="javascript:void(0);" target="_blank" class="btn share-email ha-referrals-share-email"><i class="fa fa-envelope-o"></i>Email</a>
+  </div>  
+</div>
+
+</div>
+</div>
+
+
+
+
+
+</div>
+</div></div>
+<div class="status-wrapper"></div>
+<div class="popover-footer">
+    <p>
+      Limited-time offer. Your friend must run payroll by 04/30/2015. You will both receive a $100 Amazon gift card once we
+      bill your friend for the first time. Does not apply to multi-user accounts.
+    </p>
+</div>
+
+</div>
+</span>
+
+<!--====pop over close here====-->
+
+
+    </div>  
+  </div>
+
+  <div class="span6 account-toggle">
+    <a class="off" id="account-menu-toggle" href="javascript:void(0)">jchout@hotmail.com</a>
+
+    <div id="account-menu" style="display: none;">
+      <div id="account-menu-paper">
+        <div id="account-menu-paperclip">
+          <ul>
+            <li><a class="personal-details" href="javascript:void(0);">Personal Details</a></li>
+            <li><a class="sign-out" rel="nofollow" data-bypass="" data-method="delete" href="javascript:void(0);">Sign Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div>
+  </div>
+
+<div class="row-fluid"><!--main content div start here-->
+
+<!--nav section start here-->
+
+<nav id="nav-content" class="span2">
+<div class="nav-view-container">
+
+<a id="logo" class="" href="javascript:void(0);">
+  <img alt="ZenPayroll" src="img/zenpayroll-logo.png">
+</a>
+
+<ul class="nav nav-list">
+
+<li class="divider-below" id="home-nav-item">
+      <a class="get_started" href="main-manage.html">
+       get started <span class="zp-icon"><img src="img/flag-grey.png"></span>
+      </a>
+</li>
+  
+<li id="run-payroll-nav-item">
+    <a class="run_payroll" href="javascript:void(0);">
+      run payroll <span class="zp-icon"><img src="img/run-payroll.png"></span>
+    </a>
+</li>
+
+<li class="divider-below  hide " id="pay-contractors-nav-item">
+    <a class="pay_contractors" href="javascript:void(0);">
+      pay contractors <span class="zp-icon"><img src="img/contractor-icon.png"></span>
+    </a>
+</li>
+
+<li id="manage-employees-nav-item" class="current">
+    <a class="manage_employees" href="employees.html">
+      employees <span class="zp-icon"><img src="img/employee-payroll-icon.png"></span>
+    </a>
+</li>
+
+<li id="manage-contractors-nav-item">
+    <a class="manage_contractors" href="javascript:void(0);">
+      contractors <span class="zp-icon"><img src="img/contractor-icon.png"></span>
+    </a>
+</li>
+
+<li class="divider-below" id="payroll-history-nav-item">
+    <a class="payroll_history" href="javascript:void(0);">
+      payroll history <span class="zp-icon"><img src="img/payroll-history.png"></span>
+    </a>
+</li>
+
+<li class="hipped" id="company-details-nav-item">
+    <a class="company_details" href="details.html">
+      company <span class="zp-icon"><img src="img/company-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-locations-nav-item" class="">
+    <a class="company_locations" href="locations.html">
+      locations <span class="zp-icon"><img src="img/location-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-benefits-nav-item">
+    <a class="company_benefits" href="javascript:void(0);">
+      benefits <span class="zp-icon"><img src="img/benefits-icon.png"></span>
+    </a>
+</li>
+
+<li id="forms-nav-item">
+    <a class="company_forms" href="javascript:void(0);">
+      forms <span class="zp-icon"><img src="img/form-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-settings-nav-item">
+    <a class="company_settings" href="javascript:void(0);">
+      settings <span class="zp-icon"><img src="img/setting-icon.png"></span>
+    </a>
+</li>
+</ul>
+</div>
+</nav>
+<!--nav section close here-->
+
+
+
+<!--content part start here-->
+<div class="paper span10" id="main" style="height: auto;">
+      <div id="page-container">
+        <div class="clear height-zero">&nbsp;</div>
+
+        <!--<h6 class='margin-top-none'>VTEAM</h6>-->
+        <div class="hide" id="loading" style="display: none;">
+        </div>
+
+        <div id="main-content" style="opacity: 1;"><div class="employee-step2-view"><h1>Add New Employee <span class="name">aaa bbb</span></h1>
+<div id="navigation-header">
+<div class="employee-onboarding-navigation-header-view">
+<div class="row-fluid clear margin-bottom-none" id="steps">
+  <div class="step span3 done">
+    
+    <a class="" href="javascript:void(0);">The Basics</a>
+    
+  </div>
+  <div class="step span3 current">Personal Details</div>
+  <div class="step span3 ">Tax Details</div>
+  <div class="step span3 ">Payment Details</div>
+</div>
+</div></div>
+<p></p>
+<div id="step-2-form"><div class="employee-new-employee-personal-details"><div class="form-errors"></div>
+
+<div class="row-fluid clear">
+<div class="span12 content">
+  <p class="text-darkgrey">
+      Please enter the employee personal information below. The information entered in previous steps is saved and you can always come back to complete this screen from the employees page.
+  </p>
+
+  <form class="form-horizontal">
+    <fieldset class="employee-form">
+      <div class="control-group tooltip-group   ssn">
+  <label for="employee[ssn]" class="control-label">Social Security</label>
+  <div class="controls">
+    <input type="text" placeholder="" id="employee[ssn]" class="ssn-field span6 has-help" value="" name="employee[ssn]">
+
+    
+      <div class="help-float span6 hidden-phone" id="tooltip-employee-ssn">
+        <p>
+          We will need this information in order to file payroll taxes properly.
+        </p>
+      </div>
+    
+
+    
+  </div>
+</div>
+
+      <div data-tooltip-id="tooltip-employee-ssn" class="control-group inline date-select tooltip-group  birthday">
+    <label for="employee" class="control-label">Birthday</label>
+
+    <div class="controls date-selects">
+        <select name="employee[birthday(2i)]" id="employee_birthday_2i" class="span2 date-month inline has-help ">
+            
+                <option value=""></option>
+            
+                <option value="1">Jan</option>
+            
+                <option selected="selected" value="2">Feb</option>
+            
+                <option value="3">Mar</option>
+            
+                <option value="4">Apr</option>
+            
+                <option value="5">May</option>
+            
+                <option value="6">Jun</option>
+            
+                <option value="7">Jul</option>
+            
+                <option value="8">Aug</option>
+            
+                <option value="9">Sep</option>
+            
+                <option value="10">Oct</option>
+            
+                <option value="11">Nov</option>
+            
+                <option value="12">Dec</option>
+            
+        </select>
+
+        <select name="employee[birthday(3i)]" id="employee_birthday_3i" class="span2 date-day inline has-help ">
+            
+                <option value=""></option>
+            
+                <option selected="selected" value="1">1</option>
+            
+                <option value="2">2</option>
+            
+                <option value="3">3</option>
+            
+                <option value="4">4</option>
+            
+                <option value="5">5</option>
+            
+                <option value="6">6</option>
+            
+                <option value="7">7</option>
+            
+                <option value="8">8</option>
+            
+                <option value="9">9</option>
+            
+                <option value="10">10</option>
+            
+                <option value="11">11</option>
+            
+                <option value="12">12</option>
+            
+                <option value="13">13</option>
+            
+                <option value="14">14</option>
+            
+                <option value="15">15</option>
+            
+                <option value="16">16</option>
+            
+                <option value="17">17</option>
+            
+                <option value="18">18</option>
+            
+                <option value="19">19</option>
+            
+                <option value="20">20</option>
+            
+                <option value="21">21</option>
+            
+                <option value="22">22</option>
+            
+                <option value="23">23</option>
+            
+                <option value="24">24</option>
+            
+                <option value="25">25</option>
+            
+                <option value="26">26</option>
+            
+                <option value="27">27</option>
+            
+                <option value="28">28</option>
+            
+                <option value="29">29</option>
+            
+                <option value="30">30</option>
+            
+                <option value="31">31</option>
+            
+        </select>
+
+        <select name="employee[birthday(1i)]" id="employee_birthday_1i" class="span2 date-year inline has-help ">
+            
+                <option value=""></option>
+            
+                <option value="2005">2005</option>
+            
+                <option value="2004">2004</option>
+            
+                <option value="2003">2003</option>
+            
+                <option value="2002">2002</option>
+            
+                <option value="2001">2001</option>
+            
+                <option value="2000">2000</option>
+            
+                <option value="1999">1999</option>
+            
+                <option value="1998">1998</option>
+            
+                <option value="1997">1997</option>
+            
+                <option value="1996">1996</option>
+            
+                <option value="1995">1995</option>
+            
+                <option value="1994">1994</option>
+            
+                <option value="1993">1993</option>
+            
+                <option value="1992">1992</option>
+            
+                <option value="1991">1991</option>
+            
+                <option value="1990">1990</option>
+            
+                <option value="1989">1989</option>
+            
+                <option value="1988">1988</option>
+            
+                <option value="1987">1987</option>
+            
+                <option value="1986">1986</option>
+            
+                <option value="1985">1985</option>
+            
+                <option value="1984">1984</option>
+            
+                <option value="1983">1983</option>
+            
+                <option value="1982">1982</option>
+            
+                <option value="1981">1981</option>
+            
+                <option value="1980">1980</option>
+            
+                <option value="1979">1979</option>
+            
+                <option value="1978">1978</option>
+            
+                <option value="1977">1977</option>
+            
+                <option value="1976">1976</option>
+            
+                <option value="1975">1975</option>
+            
+                <option value="1974">1974</option>
+            
+                <option value="1973">1973</option>
+            
+                <option value="1972">1972</option>
+            
+                <option selected="selected" value="1971">1971</option>
+            
+                <option value="1970">1970</option>
+            
+                <option value="1969">1969</option>
+            
+                <option value="1968">1968</option>
+            
+                <option value="1967">1967</option>
+            
+                <option value="1966">1966</option>
+            
+                <option value="1965">1965</option>
+            
+                <option value="1964">1964</option>
+            
+                <option value="1963">1963</option>
+            
+                <option value="1962">1962</option>
+            
+                <option value="1961">1961</option>
+            
+                <option value="1960">1960</option>
+            
+                <option value="1959">1959</option>
+            
+                <option value="1958">1958</option>
+            
+                <option value="1957">1957</option>
+            
+                <option value="1956">1956</option>
+            
+                <option value="1955">1955</option>
+            
+                <option value="1954">1954</option>
+            
+                <option value="1953">1953</option>
+            
+                <option value="1952">1952</option>
+            
+                <option value="1951">1951</option>
+            
+                <option value="1950">1950</option>
+            
+                <option value="1949">1949</option>
+            
+                <option value="1948">1948</option>
+            
+                <option value="1947">1947</option>
+            
+                <option value="1946">1946</option>
+            
+                <option value="1945">1945</option>
+            
+                <option value="1944">1944</option>
+            
+                <option value="1943">1943</option>
+            
+                <option value="1942">1942</option>
+            
+                <option value="1941">1941</option>
+            
+                <option value="1940">1940</option>
+            
+                <option value="1939">1939</option>
+            
+                <option value="1938">1938</option>
+            
+                <option value="1937">1937</option>
+            
+                <option value="1936">1936</option>
+            
+                <option value="1935">1935</option>
+            
+                <option value="1934">1934</option>
+            
+                <option value="1933">1933</option>
+            
+                <option value="1932">1932</option>
+            
+                <option value="1931">1931</option>
+            
+                <option value="1930">1930</option>
+            
+                <option value="1929">1929</option>
+            
+                <option value="1928">1928</option>
+            
+                <option value="1927">1927</option>
+            
+                <option value="1926">1926</option>
+            
+                <option value="1925">1925</option>
+            
+                <option value="1924">1924</option>
+            
+                <option value="1923">1923</option>
+            
+                <option value="1922">1922</option>
+            
+                <option value="1921">1921</option>
+            
+                <option value="1920">1920</option>
+            
+                <option value="1919">1919</option>
+            
+                <option value="1918">1918</option>
+            
+                <option value="1917">1917</option>
+            
+                <option value="1916">1916</option>
+            
+                <option value="1915">1915</option>
+            
+                <option value="1914">1914</option>
+            
+                <option value="1913">1913</option>
+            
+                <option value="1912">1912</option>
+            
+                <option value="1911">1911</option>
+            
+                <option value="1910">1910</option>
+            
+                <option value="1909">1909</option>
+            
+                <option value="1908">1908</option>
+            
+                <option value="1907">1907</option>
+            
+                <option value="1906">1906</option>
+            
+                <option value="1905">1905</option>
+            
+        </select>
+
+
+        
+
+        
+    </div>
+</div>
+
+      <hr>
+      <div class="home_address[id]">
+  <input type="hidden" id="employee[home_address][id]" class=" span6" value="" name="employee[home_address][id]">
+</div>
+
+      <div class="control-group tooltip-group   home_address[street_1]">
+  <label for="employee[home_address][street_1]" class="control-label">Address Line 1</label>
+  <div class="controls">
+    <input type="text" placeholder="" id="employee[home_address][street_1]" class=" span6 has-help" value="" name="employee[home_address][street_1]" autocomplete="off">
+
+    
+      <div class="help-float span6 hidden-phone" id="tooltip-employee-home_address">
+        <p>
+          Employee home address. It can be anywhere in the United States.
+        </p>
+      </div>
+    
+
+    
+  </div>
+</div>
+
+      <div data-tooltip-id="tooltip-employee-home_address\[street_1\]" class="control-group tooltip-group   home_address[street_2]">
+  <label for="employee[home_address][street_2]" class="control-label">Address Line 2</label>
+  <div class="controls">
+    <input type="text" placeholder="optional" id="employee[home_address][street_2]" class="optional-field span6 has-help" value="" name="employee[home_address][street_2]">
+
+    
+
+    
+  </div>
+</div>
+
+      <div data-tooltip-id="tooltip-employee-home_address\[street_1\]" class="control-group tooltip-group   home_address[city]">
+  <label for="employee[home_address][city]" class="control-label">City</label>
+  <div class="controls">
+    <input type="text" placeholder="" id="employee[home_address][city]" class=" span6 has-help" value="" name="employee[home_address][city]">
+
+    
+
+    
+  </div>
+</div>
+
+      <div data-tooltip-id="tooltip-employee-home_address\[street_1\]" class="control-group tooltip-group  home_address[state]">
+  <label for="employee[home_address][state]" class="control-label">State</label>
+  <div class="controls">
+      <select class="home-state span6 has-help" id="employee[home_address][state]" name="employee[home_address][state]">
+        <option value="">- Please Select -</option>
+        
+          <option value="AK">AK</option>
+        
+          <option value="AL">AL</option>
+        
+          <option value="AR">AR</option>
+        
+          <option value="AZ">AZ</option>
+        
+          <option value="CA">CA</option>
+        
+          <option value="CO">CO</option>
+        
+          <option value="CT">CT</option>
+        
+          <option value="DC">DC</option>
+        
+          <option value="DE">DE</option>
+        
+          <option value="FL">FL</option>
+        
+          <option value="GA">GA</option>
+        
+          <option value="HI">HI</option>
+        
+          <option value="IA">IA</option>
+        
+          <option value="ID">ID</option>
+        
+          <option value="IL">IL</option>
+        
+          <option value="IN">IN</option>
+        
+          <option value="KS">KS</option>
+        
+          <option value="KY">KY</option>
+        
+          <option value="LA">LA</option>
+        
+          <option value="MA">MA</option>
+        
+          <option value="MD">MD</option>
+        
+          <option value="ME">ME</option>
+        
+          <option value="MI">MI</option>
+        
+          <option value="MN">MN</option>
+        
+          <option value="MO">MO</option>
+        
+          <option value="MS">MS</option>
+        
+          <option value="MT">MT</option>
+        
+          <option value="NC">NC</option>
+        
+          <option value="ND">ND</option>
+        
+          <option value="NE">NE</option>
+        
+          <option value="NH">NH</option>
+        
+          <option value="NJ">NJ</option>
+        
+          <option value="NM">NM</option>
+        
+          <option value="NV">NV</option>
+        
+          <option value="NY">NY</option>
+        
+          <option value="OH">OH</option>
+        
+          <option value="OK">OK</option>
+        
+          <option value="OR">OR</option>
+        
+          <option value="PA">PA</option>
+        
+          <option value="RI">RI</option>
+        
+          <option value="SC">SC</option>
+        
+          <option value="SD">SD</option>
+        
+          <option value="TN">TN</option>
+        
+          <option value="TX">TX</option>
+        
+          <option value="UT">UT</option>
+        
+          <option value="VA">VA</option>
+        
+          <option value="VT">VT</option>
+        
+          <option value="WA">WA</option>
+        
+          <option value="WI">WI</option>
+        
+          <option value="WV">WV</option>
+        
+          <option value="WY">WY</option>
+        
+      </select>
+
+      
+
+
+      
+  </div>
+</div>
+
+      <div data-tooltip-id="tooltip-employee-home_address\[street_1\]" class="control-group tooltip-group   home_address[zip]">
+  <label for="employee[home_address][zip]" class="control-label">Zip</label>
+  <div class="controls">
+    <input type="text" placeholder="" id="employee[home_address][zip]" class=" span6 has-help" value="" name="employee[home_address][zip]">
+
+    
+
+    
+  </div>
+</div>
+
+    </fieldset>
+
+    <div class="control-group">
+      <label></label>
+      <div class="controls">
+        <div class="alert margin-top different-state-warning span6 hide">
+          <p class="text-center"><strong class="text-center">Living and Working in Different States</strong></p>
+          <p>
+          
+            Because this employee lives and works in different states, he may be subject to added home state payroll taxes. The employee will have to account for those taxes at the end of the year, when filing his personal tax returns.
+          
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-actions ajax-spinner no-padd">
+      <button class="btn next-step green-btn" type="button" href="javascript:void(0)"><i class="icon-ok icon-white"></i><span class="text">Save and Continue</span></button>
+      <div class="hide spinner "><img alt="Loading. Please Wait." src="//d1w32dwlo9psx6.cloudfront.net/assets/spinner-553d23f843fa8ea9689db43fef854b24.gif" class="margin-right"><span>Please wait...</span></div>
+    </div>
+    
+  </form>
+</div>
+</div>
+</div></div>
+</div></div>
+
+        <div class="clear height-zero">&nbsp;</div>
+      </div>
+    </div>
+
+<!--content part close here-->
+
+  </div><!--main content div close here-->
+
+  <div class="row-fluid">
+    <div class="span2 hidden-phone"></div>
+    <div class="span10" id="footer">
+      <ul>
+        <li><img title="secure connection" alt="secure connection" src="img/secure-connection.png"></li>
+        <li><a class="" href="javascript:void(0);">support</a></li>
+        <li><a data-bypass="" target="_blank" class="" href="javascript:void(0);">about</a></li>
+        <li><a class="" href="javascript:void(0);">privacy</a></li>
+        <li><a class="" href="javascript:void(0);">terms</a></li>
+        <li><a data-bypass="" target="_blank" class="" href="javascript:void(0);">jobs</a></li>
+        <li><a data-bypass="" href="javascript:void(0);" title="Follow ZenPayroll on Facebook" target="_blank" class="social"><img src="img/facebook.png"></a></li>
+        <li><a data-bypass="" href="javascript:void(0);" title="Follow ZenPayroll on Twitter" target="_blank" class="social"><img src="img/twitter.png"></a></li>
+        <li id="copyright-app">&copy; ZenPayroll, Inc. Built in California.</li>
+      </ul>
+    </div>
+  </div>
+
+ 
+
+
+
+<script src="js/jquery-1.9.1.min.js"></script> 
+ <script src="js/bootstrap.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#account-menu-toggle').click(function() {
+                $('#account-menu').slideToggle("fast");
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $('.referrals-heart-link').click(function() {
+                $('.referrals-popover-view').slideToggle("fast");
+        });
+    });
+</script>
+
+<script>
+$(document).ready(function () {
+          $(document).on('mouseenter', '.ssn', function () {                   
+            $("#tooltip-employee-ssn").show();
+            
+          }).on('mouseleave', '.ssn', function () {
+              $("#tooltip-employee-ssn").hide();
+          });
+
+
+          $(document).on('mouseenter', '.home_address[street_1]', function () {                   
+          $("#tooltip-employee-home_address").show();
+            
+          }).on('mouseleave', '.home_address[street_1]', function () {
+              $("#tooltip-employee-home_address").hide();
+          });
+
+          
+
+      }); 
+</script
+
+
+
+ </body>
+ </html>

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/fevicon-icon.png">
+    <title>Zenpayroll</title>
+    
+    <!--===custom css start here==-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">   
+	  <link rel="stylesheet" href="css/manage.css"> 
+    <link rel="stylesheet" href="css/employee.css">
+
+
+ </head>
+
+ <body>
+
+ <div id="app">
+ <div>
+
+ <div id="top-bar-wrapper"><!--======top bar section start here======-->
+ <div class="top-bar-view">
+
+ <div class="top-bar-content" style="top: 0px;">
+ <div class="app-alert-view">
+ <div class="app-alert-div alert" style="display: none;">
+  <span class="message"></span><br>
+  <a class="reload-page has-icon" href="javascript:void(0)"><i class="icon-refresh"></i> Please reload now to continue</a>
+</div>
+</div>
+
+<div class="onboarding-friend-view">
+<ul id="onboarding-friend">
+<li>
+  <div class="message row-fluid">
+    <div class="span12 onboarding-state" id="onboarding-message">
+      <a class="" href="javascript:void(0);">
+
+      <div data-original-title="To correctly calculate your state payroll taxes, we need some information from you." data-placement="bottom-left" data-toggle="tooltip" class="item-message">
+        <span class="step-number">Step 4 of 8</span>
+        
+        <h6 class="tip">State Tax Setup (Georgia)</h6>
+        
+          <div class="item-details">
+            To correctly calculate your state payroll taxes, we need some information from you.
+          </div>
+      </div>
+      </a>
+    </div>
+  </div>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="top-bar-buffer" style="top: 0px; height: 66px;"></div>
+</div>
+</div><!--======top bar section close here======-->
+
+
+<div class="container container-fluid">
+  <div class="row-fluid" id="top">
+    <div id="account-above-logo" class="span2 hidden-phone">&nbsp;</div>
+    <div id="account-content" class="span10">
+    <div class="account-view-container">
+    <div class="row-fluid">
+  <div class="span6 text-left">
+    <div class="heart-container">
+        <span class="referrals-heart-link">We <i class="icon-heart"></i> VTEAM</span>
+
+
+
+
+<!--=====popover start here=====-->
+
+<span class="referrals-popover-view" id="referal" style="display:none;">
+<div class="arrow" style="margin-left: -181px;"><img src="img/arrow.png"></div>
+<div class="main-popover">
+
+<div class="popover-inner">
+
+<h3 class="popover-til">
+<div class="row padding-top padding-bottom top-secret">
+  <div class="offset1 span2 studs">
+    <img alt="Paula" src="img/paula-head.jpg" class="white-border img-circle">
+  </div>
+  <div class="span9 stud-content">
+    <div class="margin-left">
+      <p>
+        We hope you love us too, Jerome! Spread the love and help us grow ZenPayroll by referring a friend. :)
+      </p>
+      <p class="from-text">
+        - <strong>Paula</strong>, ZenPayroll Support Team
+      </p>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="popover-content">
+
+<div class="content-full" style="">
+  <div class="how-it-works">
+    <div class="row-fluid text-center">
+      <div class="span12 promo-message-header">
+        <h4>Get $100, give $100 <span>for every friend you refer</span></h4>
+      </div>
+    </div>
+
+</div>
+ 
+<div class="share-wrapper" id="clear-shout">
+<div class="referrals-share-view">
+<div class="row-fluid">
+  <div class="span10 offset1 text-center share-header">
+    <span class="share-divider"></span>
+    <h5>Share your referral link:</h5>
+  </div>
+</div>
+
+<div class="row-fluid" id="social-shout">
+  <div class="span10 offset1 share-buttons">
+    <a class="btn share-twitter ha-referrals-share-twitter">
+      <img alt="Twitter" src="img/share-twitter-xl.png" class="icon-share">
+      Tweet It
+    </a>
+    <a class="btn share-facebook ha-referrals-share-facebook">
+      <img alt="Facebook" src="img/share-fb.png" class="icon-share">
+      Post It
+    </a>
+    <a class="btn share-linkedin ha-referrals-share-linkedin">
+      <img alt="LinkedIn" src="img/share-linkedin.png" class="icon-share">
+      Share It
+    </a>
+  </div>
+</div>
+
+<div class="row-fluid" id="input-shout">
+  <div class="span10 offset1 share-link">
+    <span class="kot-divider"></span>
+    <input type="text" value="" readonly="readonly" class="referral-url" placeholder="https://zenpayroll.com/r/8kZ6B">
+    <a href="javascript:void(0);" target="_blank" class="btn share-email ha-referrals-share-email"><i class="fa fa-envelope-o"></i>Email</a>
+  </div>  
+</div>
+
+</div>
+</div>
+
+
+
+
+
+</div>
+</div></div>
+<div class="status-wrapper"></div>
+<div class="popover-footer">
+    <p>
+      Limited-time offer. Your friend must run payroll by 04/30/2015. You will both receive a $100 Amazon gift card once we
+      bill your friend for the first time. Does not apply to multi-user accounts.
+    </p>
+</div>
+
+</div>
+</span>
+
+<!--====pop over close here====-->
+
+
+    </div>  
+  </div>
+
+  <div class="span6 account-toggle">
+    <a class="off" id="account-menu-toggle" href="javascript:void(0)">jchout@hotmail.com</a>
+
+    <div id="account-menu" style="display: none;">
+      <div id="account-menu-paper">
+        <div id="account-menu-paperclip">
+          <ul>
+            <li><a class="personal-details" href="javascript:void(0);">Personal Details</a></li>
+            <li><a class="sign-out" rel="nofollow" data-bypass="" data-method="delete" href="javascript:void(0);">Sign Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div>
+  </div>
+
+<div class="row-fluid"><!--main content div start here-->
+
+<!--nav section start here-->
+
+<nav id="nav-content" class="span2">
+<div class="nav-view-container">
+
+<a id="logo" class="" href="javascript:void(0);">
+  <img alt="ZenPayroll" src="img/zenpayroll-logo.png">
+</a>
+
+<ul class="nav nav-list">
+
+<li class="divider-below" id="home-nav-item">
+      <a class="get_started" href="main-manage.html">
+       get started <span class="zp-icon"><img src="img/flag-grey.png"></span>
+      </a>
+</li>
+  
+<li id="run-payroll-nav-item">
+    <a class="run_payroll" href="javascript:void(0);">
+      run payroll <span class="zp-icon"><img src="img/run-payroll.png"></span>
+    </a>
+</li>
+
+<li class="divider-below  hide " id="pay-contractors-nav-item">
+    <a class="pay_contractors" href="javascript:void(0);">
+      pay contractors <span class="zp-icon"><img src="img/contractor-icon.png"></span>
+    </a>
+</li>
+
+<li id="manage-employees-nav-item" class="current">
+    <a class="manage_employees" href="employees.html">
+      employees <span class="zp-icon"><img src="img/employee-payroll-icon.png"></span>
+    </a>
+</li>
+
+<li id="manage-contractors-nav-item">
+    <a class="manage_contractors" href="javascript:void(0);">
+      contractors <span class="zp-icon"><img src="img/contractor-icon.png"></span>
+    </a>
+</li>
+
+<li class="divider-below" id="payroll-history-nav-item">
+    <a class="payroll_history" href="javascript:void(0);">
+      payroll history <span class="zp-icon"><img src="img/payroll-history.png"></span>
+    </a>
+</li>
+
+<li class="hipped" id="company-details-nav-item">
+    <a class="company_details" href="details.html">
+      company <span class="zp-icon"><img src="img/company-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-locations-nav-item" class="">
+    <a class="company_locations" href="locations.html">
+      locations <span class="zp-icon"><img src="img/location-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-benefits-nav-item">
+    <a class="company_benefits" href="javascript:void(0);">
+      benefits <span class="zp-icon"><img src="img/benefits-icon.png"></span>
+    </a>
+</li>
+
+<li id="forms-nav-item">
+    <a class="company_forms" href="javascript:void(0);">
+      forms <span class="zp-icon"><img src="img/form-icon.png" class="cmp-ico"></span>
+    </a>
+</li>
+
+<li id="company-settings-nav-item">
+    <a class="company_settings" href="javascript:void(0);">
+      settings <span class="zp-icon"><img src="img/setting-icon.png"></span>
+    </a>
+</li>
+</ul>
+</div>
+</nav>
+<!--nav section close here-->
+
+
+
+<!--content part start here-->
+<div class="paper span10" id="main" style="height: auto;">
+      <div id="page-container">
+        <div class="clear height-zero">&nbsp;</div>
+
+        <!--<h6 class='margin-top-none'>VTEAM</h6>-->
+        <div class="hide" id="loading" style="display: none;">
+        </div>
+
+        <div id="main-content" style="opacity: 1;">
+        <div class="employee-step4-view">
+        <h1>Add New Employee <span class="name">aaa bbb</span></h1>
+
+<div id="navigation-header">
+<div class="employee-onboarding-navigation-header-view">
+<div class="row-fluid clear margin-bottom-none" id="steps">
+  <div class="step span3 done">
+    
+      <a class="" href="javascript:void(0);">The Basics</a>
+    
+  </div>
+  <div class="step span3 done">
+    
+      <a class="" href="javascript:void(0);">Personal Details</a>
+    
+  </div>
+  <div class="step span3 done">
+    
+      <a class="" href="javascript:void(0);">Tax Details</a>
+    
+  </div>
+  <div class="step span3 current">Payment Details</div>
+</div>
+</div></div>
+
+<p></p>
+<div id="payment-details-form">
+<div class="employee-new-employee-payment-details">
+<div class="form-errors"></div>
+
+<p class="text-darkgrey margin-top">
+  
+    How would your employee like to be paid? We recommend using our free Direct Deposit service to achieve paperless Zen,
+    but you can also choose to write checks if you prefer. You can always change this later through the employee page.
+  
+  
+</p>
+
+<div class="row-fluid clear">
+<div class="span12">
+  <form class="form-horizontal">
+    <fieldset>
+      <div class="control-group tooltip-group  payment_method_type">
+  <label for="employee[payment_method_type]" class="control-label">Payment Method</label>
+  <div class="controls">
+      <select class="payment-method span6" id="employee[payment_method_type]" name="employee[payment_method_type]">
+        <option value="">- Please Select -</option>
+        
+          <option value="Direct Deposit">Direct Deposit</option>
+        
+          <option selected="selected" value="Check">Check</option>
+        
+      </select>
+
+      
+
+
+      
+  </div>
+</div>
+
+    </fieldset>
+    <fieldset>
+      <div class="hide" id="pay-by-check">
+        <div class="control-group">
+          <div class="controls">
+            <div class="row-fluid">
+              <div class="span6">
+                <p>
+                  
+                    By selecting Check as the payment method you will be required to write a <strong>physical check</strong>
+                    to this employee every payday (we will tell you the exact amount to pay). ZenPayroll will still
+                    calculate &amp; withhold the appropriate taxes, like normal.
+                  
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div class="" id="pay-by-direct-deposit">
+        <div class="control-group">
+          <p class="padding-top"><img alt="Sample Check - Identify your Bank Routing and Account Numbers" src="img/sample-check-da.png"></p>
+        </div>
+        <div class="control-group tooltip-group routing_number">
+  <label for="payment_account[routing_number]" class="control-label">Routing Number</label>
+  <div class="controls">
+    <input type="text" placeholder="" id="payment_account[routing_number]" class="routing-field span6 has-help" value="" name="payment_account[routing_number]">
+
+    
+      <div class="help-float span6 hidden-phone" id="tooltip-payment_account-routing_number">
+        <p>
+          Be extra careful entering these values and make sure you include leading zeroes if they exist. We will verify the account by completing a test transaction. After adding this account you can split deposits between multiple accounts from the employee's payment methods section.
+        </p>
+      </div>
+    
+
+    
+  </div>
+</div>
+
+        <div class="control-group">
+          <div class="controls access-home">
+            <p id="bank-lookup-name">&nbsp;</p>
+          </div>
+        </div>
+        <div data-tooltip-id="tooltip-payment_account-routing_number" class="control-group tooltip-group   account_number">
+  <label for="payment_account[account_number]" class="control-label">Account Number</label>
+  <div class="controls">
+    <input type="text" placeholder="" id="payment_account[account_number]" class=" span6 has-help" value="" name="payment_account[account_number]">
+
+    
+
+    
+  </div>
+</div>
+
+        <div data-tooltip-id="tooltip-payment_account-routing_number" class="control-group tooltip-group  account_type">
+  <label for="payment_account[account_type]" class="control-label">Account Type</label>
+  <div class="controls">
+      <select class=" span6 has-help" id="payment_account[account_type]" name="payment_account[account_type]">
+        <option value="">- Please Select -</option>
+        
+          <option value="Checking">Checking</option>
+        
+          <option value="Savings">Savings</option>
+        
+      </select>
+
+      
+
+
+      
+  </div>
+</div>
+
+        <div class="name">
+  <input type="hidden" id="payment_account[name]" class="Display Name span6" value="aaa bbb's bank account" name="payment_account[name]">
+</div>
+
+      </div>
+    </fieldset>
+    <div class="form-actions ajax-spinner no-padd">
+      <button class="btn next-step green-btn" type="button" href="javascript:void(0)"><i class="icon-ok icon-white"></i><span class="text">Save and Continue</span></button>
+    </div>
+  </form>
+</div>
+</div>
+</div></div>
+</div></div>
+
+        <div class="clear height-zero">&nbsp;</div>
+      </div>
+    </div>
+
+<!--content part close here-->
+
+  </div><!--main content div close here-->
+
+  <div class="row-fluid">
+    <div class="span2 hidden-phone"></div>
+    <div class="span10" id="footer">
+      <ul>
+        <li><img title="secure connection" alt="secure connection" src="img/secure-connection.png"></li>
+        <li><a class="" href="javascript:void(0);">support</a></li>
+        <li><a data-bypass="" target="_blank" class="" href="javascript:void(0);">about</a></li>
+        <li><a class="" href="javascript:void(0);">privacy</a></li>
+        <li><a class="" href="javascript:void(0);">terms</a></li>
+        <li><a data-bypass="" target="_blank" class="" href="javascript:void(0);">jobs</a></li>
+        <li><a data-bypass="" href="javascript:void(0);" title="Follow ZenPayroll on Facebook" target="_blank" class="social"><img src="img/facebook.png"></a></li>
+        <li><a data-bypass="" href="javascript:void(0);" title="Follow ZenPayroll on Twitter" target="_blank" class="social"><img src="img/twitter.png"></a></li>
+        <li id="copyright-app">&copy; ZenPayroll, Inc. Built in California.</li>
+      </ul>
+    </div>
+  </div>
+
+ 
+
+
+
+<script src="js/jquery-1.9.1.min.js"></script> 
+ <script src="js/bootstrap.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#account-menu-toggle').click(function() {
+                $('#account-menu').slideToggle("fast");
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function() {
+        $('.referrals-heart-link').click(function() {
+                $('.referrals-popover-view').slideToggle("fast");
+        });
+    });
+</script>
+
+<script>
+$(document).ready(function () {
+          $(document).on('mouseenter', '.routing_number', function () {                   
+            $("#tooltip-payment_account-routing_number").show();
+            
+          }).on('mouseleave', '.routing_number', function () {
+              $("#tooltip-payment_account-routing_number").hide();
+          });
+        
+
+      }); 
+</script
+
+
+
+ </body>
+ </html>
